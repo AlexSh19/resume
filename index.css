@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(239, 239, 232);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container {
+    margin: auto;
+    padding: 15px 50px 25px 80px;
+    border: 5px solid rgb(72, 229, 109);
+    border-radius: 20px;
+}
+
+.image-style {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 801px) {
+    .image-style {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+}
+
+.card {
+    padding: 18px;
+    background: rgb(223, 240, 218);
+    border-radius: 10px;
+    margin-bottom: 12px;
+    color: #393b39;
+}
+
+h1 {
+    color: rgb(20, 161, 84);
+}
+
+.table-style {
+    font-family: Tahoma, sans-serif;
+    color: #393b39;
+}
+
+@media (max-width: 600px) {
+    .table-style {
+        margin: 0%;
+        width: 100%;
+    }
+}
+
+.list {
+    list-style: none;
+    padding: 0px;
+}
+
+.list li { 
+    margin: 8px;
+    color: #393b39;
+}
+
+a {
+    color: rgb(48, 35, 224);
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: rgb(20, 161, 84);
+}
+
+.target-note p {
+    font-style: italic;
+    color: #86898f;
+}
+
+.btn {
+    background: rgb(20, 161, 84);
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.form h4 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #393b39;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #393b39;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
